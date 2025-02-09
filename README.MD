@@ -54,6 +54,4 @@ python main.py
 - `rasterio`
 - `scipy`
 
-## Autor
-Projeto desenvolvido por [Seu Nome].
 
