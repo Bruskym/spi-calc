@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ## Uso
 Para executar o cálculo do SPI:
 ```bash
-python main.py
+python app.py
 ```
 ### Parâmetros de Entrada
 - **Arquivos raster (.tif)**: Devem estar localizados no diretório `data_tif/`.
