@@ -23,7 +23,7 @@ if __name__ == "__main__":
     latitude = -36.0191
 
     # Gera o CSV com os dados SPI
-    extract_spi_to_csv(input_tif, latitude, longitude, output_file, 1981)
+    extract_spi_to_csv(input_tif, latitude, longitude, output_file)
 
     df_spi = pd.read_csv(output_file)
     df_spi = df_spi.drop(columns=["Longitude", "Latitude"])

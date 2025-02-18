@@ -23,9 +23,6 @@ def plot_spi(df_spi):
     plt.bar(years, positive_spi, color='blue', label='SPI > 0', width=bar_width, align='center')
     plt.bar(years, negative_spi, color='red', label='SPI < 0', width=bar_width, align='center')
 
-    # Linha central no SPI = 0
-    plt.axhline(0, color='black', linewidth=1.5, linestyle='--')
-
     # Adicionando títulos e rótulos
     plt.title('Índice Padronizado de Precipitação (SPI)', fontsize=14)
     plt.xlabel('Anos/Bandas', fontsize=12)
