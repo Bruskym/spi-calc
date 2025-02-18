@@ -19,11 +19,11 @@ if __name__ == "__main__":
     output_dir.mkdir(exist_ok=True)
     
     output_file = output_dir / "relatorio_spi_coordenada.csv"
-    longitude = -8.3676
-    latitude = -36.0191
+    longitude = -36.0348
+    latitude = -8.3639
 
     # Gera o CSV com os dados SPI
-    extract_spi_to_csv(input_tif, latitude, longitude, output_file)
+    extract_spi_to_csv(input_tif, longitude, latitude, output_file)
 
     df_spi = pd.read_csv(output_file)
     df_spi = df_spi.drop(columns=["Longitude", "Latitude"])
