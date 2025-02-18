@@ -3,3 +3,5 @@ venv/
 .vscode/
 tif_output/
 data_shapefile/
+monthly/
+csv_output/
