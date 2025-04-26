@@ -35,7 +35,7 @@ python app.py
 ```
 ### Parâmetros de Entrada
 - **Arquivos raster (.tif)**: Devem estar localizados no diretório `data_tif/`.
-- **Shapefile (.shp)**: Deve estar localizado no diretório `data_shapefile/`. O script automaticamente usa o primeiro `.shp` encontrado.
+- **Shapefile (.shp)**: Deve estar localizado no diretório `data_shapefile/`. O script automaticamente usa o primeiro `.shp` encontrado para fazer o recorte da área onde o SPI será calculado.
 
 ### Saída
 - O resultado do SPI é salvo em `tif_output/spi_multibanda.tif`.
