@@ -45,7 +45,6 @@ python app.py
 2. **Cálculo do SPI**:
    - O algoritmo ajusta uma distribuição gama para cada pixel ao longo do tempo.
    - Se a quantidade de valores válidos for insuficiente, o SPI é definido como NaN.
-   - Para regiões sem precipitação, o SPI é fixado em -3.0.
 3. **Geração do Raster de SPI**: O SPI é salvo como um arquivo raster multibanda.
 
 ## Dependências
